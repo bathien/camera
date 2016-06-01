@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+      <LinearLayout
+        android:id="@+id/Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+<Button
+	android:id="@+id/btnChangeCamera"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="Change Camera"
+	/>
+<Button
+	android:id="@+id/btntakepicture"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="Take Picture " 
+	/>
+<com.exercise.AndroidCamera.FlashButton
+            android:id="@+id/btnflash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+      
+</LinearLayout>
+</LinearLayout>
